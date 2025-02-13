@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.default-bg {
+  background-color: #f0f0f0;
+}
+
+.sunny-bg {
+  background-color: #ffeb3b;
+}
+
+.rain-bg {
+  background-color: #90caf9;
+}
+
+.snow-bg {
+  background-color: #e0f7fa;
+}
+
+.cloud-bg {
+  background-color: #bdbdbd;
+}
+
+input, button {
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+}
+
+.weather-info, .forecast, .alerts, .favorites, .recent-searches {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+}
+
+.forecast-item, .alert {
+  margin-bottom: 10px;
+}
+
+.loading {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: #000;
+}
+
+.error {
+  color: red;
+}
+
+@media (max-width: 768px) {
+  input, button {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
